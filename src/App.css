@@ -12,6 +12,14 @@
 }
 
 .content {
-
   padding: 2%;
+}
+.content .row {
+  width: inherit;
+}
+
+.row #form {
+  width: inherit;
+  margin-left: 15%;
+  padding-top: 2%;
 }
