@@ -1,6 +1,10 @@
 import React from "react";
 
-export default function Table({data, handelShow}) {
+export default function Table({data, handelShow, handleChange}) {
+    var index = 0;
+    const handelSelect = (item) => {
+        handleChange(item);
+    }
     return (
         <div className="content">
             <table className="table table-bordered">
@@ -18,7 +22,7 @@ export default function Table({data, handelShow}) {
                 </thead>
                 <tbody>
                     {data.map(item =>
-                        <tr key={item.entity.data.id} onClick={handelShow}>
+                        <tr key={item.entity.data.id} onClick={() => handelSelect(item.entity.data)}>
                             <td>{item.entity.data.number}</td>
                             <td>{item.entity.data.summary}</td>
                             <td>{item.entity.data.isPrivate ? 
