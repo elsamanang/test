@@ -189,7 +189,7 @@
                             "name": "FAQ"
                         },
                         "number": "FA-218",
-                        "summary": "tHIRD pARTY ..max length there are 500 characters ..................................................",
+                        "summary": "tHIRD pARTY ..max length there are 500 characters ...",
                         "isPrivate": true,
                         "author": {
                             "id": 5238,
@@ -259,7 +259,7 @@
                             "name": "FAQ"
                         },
                         "number": "FA-216",
-                        "summary": "tHIRD pARTY ..max length there are 500 characters ..................................................",
+                        "summary": "tHIRD pARTY ..max length there are 500 characters ...",
                         "isPrivate": true,
                         "author": {
                             "id": 5238,
@@ -364,7 +364,7 @@
                             "name": "Known Error"
                         },
                         "number": "KE-213",
-                        "summary": "testing CI people Long title Knowledge Item aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                        "summary": "testing CI people Long title Knowledge Item a...",
                         "isPrivate": false,
                         "author": {
                             "id": 5238,
