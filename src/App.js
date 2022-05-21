@@ -7,7 +7,7 @@ function App() {
   const [item, setItem] = useState([]);
   const [form, setForm] = useState([]);
   const [col, setCol] = useState(12);
-  const [oneItem, setOneItem] = useState({});
+  const [oneItem, setOneItem] = useState(null);
   const [showform, setShowform] = useState('none');
 
   const getItem = () => {
@@ -71,8 +71,12 @@ function App() {
   }
 
   const handleChange = elm => {
-    setOneItem(elm);
-    console.log(oneItem);
+    setOneItem({
+      KnownErrorTypeId: elm.type.id,
+      Status: elm.status.id,
+      IsPrivate: elm.isPrivate,
+      Summary: elm.summary
+    });
     handelShow();
   }
 
