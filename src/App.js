@@ -87,7 +87,12 @@ function App() {
           <Table data={item} handelShow={handelShow} handleChange={handleChange} />
         </div>
         <div id='form' className={'col-md-'+ col} style={{display: showform}}>
-          <From handelUnShow={handelUnShow} formulaire={form} selected={oneItem} />
+          <button className='btn btn-light' onClick={handelUnShow} title="close" style={{marginLeft: '20%'}}>
+            <img src="failed.png" className="mx-2" width={'18px'}/>
+          </button>
+          {oneItem == null? "": 
+            <From handelUnShow={handelUnShow} formulaire={form} selected={oneItem} />
+          }
         </div>
       </div>
     </div>
