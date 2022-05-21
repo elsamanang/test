@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Charge the form 1`] = `
+<div
+  className="content"
+>
+  <div
+    className="card"
+  >
+    <div
+      className="card-body"
+    >
+      <form>
+        <div
+          className="form-group"
+        >
+          <label>
+            Knowledge Item Type
+          </label>
+          <select
+            className="form-control m-1"
+            id="exampleFormControlSelect1"
+            onChange={[Function]}
+            value={1}
+          >
+            <option
+              value={1}
+            >
+              FAQ
+            </option>
+            <option
+              value={2}
+            >
+              Advice
+            </option>
+            <option
+              value={3}
+            >
+              Known Error
+            </option>
+          </select>
+        </div>
+        <div
+          className="form-group"
+        >
+          <label>
+            Lifecycle Status
+          </label>
+          <select
+            className="form-control m-1"
+            id="exampleFormControlSelect1"
+            onChange={[Function]}
+            value={1}
+          >
+            <option
+              value={1}
+            >
+              Published
+            </option>
+            <option
+              value={2}
+            >
+              Planned
+            </option>
+            <option
+              value={3}
+            >
+              Retired
+            </option>
+          </select>
+        </div>
+        <div
+          className="form-group"
+        >
+          <label>
+            Is Private?
+          </label>
+          <input
+            checked={true}
+            className="form-check-input m-1"
+            id="exampleInputEmail1"
+            name="name"
+            onChange={[Function]}
+            type="checkbox"
+            value={true}
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label>
+            Summary
+          </label>
+          <input
+            checked={true}
+            className="form-control m-1"
+            id="exampleInputEmail1"
+            name="name"
+            onChange={[Function]}
+            type="text"
+            value="element summary"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

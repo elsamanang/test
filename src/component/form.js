@@ -1,20 +1,18 @@
 import React, {useState} from "react";
 
-export default function From({handelUnShow, formulaire, selected}) {
+export default function From({formulaire, selected}) {
     const [form, setForm] = useState(selected);
-
+    
     const handleChange = (e) => {
         const {elm} = form;
         elm[e.target.name] = e.target.value
         setForm(elm);
     }
+
     return (
         <div className="content">
             <div className="card">
                 <div className="card-body">
-                    <button className='btn btn-light' onClick={handelUnShow} title="close">
-                        <img src="failed.png" className="mx-2" width={'18px'}/>
-                    </button>
                     {selected == null? <p>Nothing selected</p>: 
                         <form>
                             {formulaire.map(item => 
